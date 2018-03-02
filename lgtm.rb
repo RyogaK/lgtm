@@ -5,6 +5,8 @@ class Lgtm < Formula
   sha256 "fcea35b493e1fb0cc6a983069a915184cdf8e3a8bf21d8f99de38ac9c051301d"
   head "https://github.com/RyogaK/homebrew-lgtm.git", :tag => "0.0.1"
 
+  depends_on "https://raw.githubusercontent.com/EricChiang/pup/master/pup.rb"
+
   def install
     bin.install "bin/lgtm"
   end
