@@ -4,8 +4,7 @@ Copy the markdown text of the image of LGTM.in to the clipboard.
 ## Install
 
 ```sh
-$ brew tap RyogaK/lgtm
-$ brew install lgtm
+$ brew install https://raw.githubusercontent.com/RyogaK/lgtm/master/lgtm.rb
 ```
 
 ## Usage
