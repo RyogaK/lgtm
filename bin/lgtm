@@ -1,0 +1,3 @@
+#!/bin/sh
+
+echo "\![LGTM](`curl -sL http://www.lgtm.in/g | pup '#imageUrl attr{value}'`)" | pbcopy
